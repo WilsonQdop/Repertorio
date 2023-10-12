@@ -63,6 +63,7 @@ nav {
     padding-top: 20px;
     padding-bottom: 10px;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.281);
+    
 
 }
 nav  a {
@@ -71,12 +72,15 @@ nav  a {
     color: var(--cor5);
     font-weight: bolder;
     transition-duration: 0.5s;
+    
+    
 }
  nav  a:hover {
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.575);
     color: var(--cor4);
     text-decoration: underline;
+    
 }
 main a {
     padding: 5px;
