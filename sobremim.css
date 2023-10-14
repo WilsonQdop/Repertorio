@@ -1,13 +1,26 @@
 body {
     height: 100vw;
 }
+
+.root {
+    --cor0: #09EBE3;
+    --cor1: #0EACEB;
+    --cor2: #0E66EB;
+    --cor3: #0EEB98;
+    --cor4: #0E21EB;
+    --cor5: #0E1FEB;
+}
+
+
+
 * {
     padding: 0px;
     margin: 0px;
 }
 
 a.menu::before {
-    content: '\00A0\25AB';
+    content: '\00A0\1F539\00A0';
+    height: 50px;
 }
 header {
     text-align: center;
@@ -29,8 +42,7 @@ nav  a {
 
     
 }
-nav > a:hover {
-    text-decoration: underline  ;
+nav > a:hover {  
     
     
 }
