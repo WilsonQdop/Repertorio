@@ -18,18 +18,23 @@
 body {
     height: 100vw;
     background-color: lightgray;
+    max-width: 1000px;
+    width: 100%;
 }
 
 a.menu::before {
     content: '\00A0\1F539\00A0';
     height: 50px;
 }
+
 header {
     background-color: var(--cor4);
-    display: flex;
+   display: flex;
     border-bottom: 50px solidrgb(0, 0, 0);
     padding: 10px 10px;  
     justify-content: space-between;
+    
+    
 }
 nav {
     background-color: var(--cor4);
@@ -45,6 +50,7 @@ nav > a {
 }
 nav a:hover {
     color: var(--cor3);
+    
 }
 
 .link {
