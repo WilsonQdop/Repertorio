@@ -31,18 +31,20 @@ header {
     padding: 10px 10px;  
     justify-content: space-between;
 }
+nav {
+    background-color: var(--cor4);
+    
+}
 
-
-a {
+nav > a {
     color: white;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     margin-right: 30px;
 }
-nav {
-    background-color: var(--cor4);
-    
+nav a:hover {
+    color: var(--cor3);
 }
 
 .link {
@@ -52,4 +54,5 @@ nav {
     line-height: 60px;
     padding-left: 20px;
     padding-right: 20px;
+    border-radius: 5px;
 }
